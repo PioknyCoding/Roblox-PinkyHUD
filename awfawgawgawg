@@ -1,3 +1,6 @@
+-- PinkyHUD - CrateFarm.lua (FULLY FIXED - remote-based reward collection)
+-- 🔵 FORCED TESTING: Power Plant only – remove the block after testing.
+
 --==================================================================================
 -- LOAD REQUIRED MODULES & SERVICES
 --==================================================================================
@@ -15,7 +18,7 @@ local HttpService = game:GetService("HttpService")
 local player = Players.LocalPlayer
 local userId = tostring(player.UserId)
 
-local SCRIPT_URL = ""  -- << set this to your raw script URL
+local SCRIPT_URL = "https://raw.githubusercontent.com/PioknyCoding/Roblox-PinkyHUD/main/awfawgawgawg"  -- << set this to your raw script URL
 
 -- ==================================================================================
 -- STATS TRACKING (persistent across re-executes)
